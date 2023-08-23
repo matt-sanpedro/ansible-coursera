@@ -20,3 +20,8 @@
 ## Handlers and Notify
 - task may need to be executed when a change has occurred in a machine
 - if task updated configuration of particular service
+
+## Roles
+- a level of abstraction on top of task and playbooks
+- can structure Ansible configuration in modular and reusable format
+- useful for large complicated playbook file and have to divide it to multiple, smaller files
