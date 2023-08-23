@@ -16,3 +16,7 @@
 ## Running Playbooks in Ansible
 - locally, the yml file (playbook) can be execute with command:
 ``` ansible-playbook nginx.yml --connection=local ```
+
+## Handlers and Notify
+- task may need to be executed when a change has occurred in a machine
+- if task updated configuration of particular service
